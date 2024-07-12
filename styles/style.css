@@ -268,7 +268,7 @@ margin-bottom: 24px;
 /* targets of mine */
 .targets{
     width: 1140px;
-height: 463px;
+/* height: 463px; */
 margin-bottom: 47px;
 margin: 0 auto;
 /* background-color: red; */
@@ -392,6 +392,9 @@ background-image: url('../assets/handshake.jpg');
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: space-between;
 
 background: rgb(255, 255, 255);
 margin-left: 230px;
@@ -414,4 +417,29 @@ line-height: 23px;
 
 text-align: center;
 
+}
+.foot{
+    width: 1440px;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+
+justify-content: space-between;
+}
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+}
+.foot-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+/* letter-spacing: 0%; */
+text-align: center;
+margin-left: 155px;
+}
+.text{
+    width: 313px;
 }
